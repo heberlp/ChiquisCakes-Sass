@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+*::selection {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.nav_bg {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(17, 17, 17, 0.4766281513) 100%);
+}
+
+.user_form {
+  margin-top: 100px;
+  height: 90vh;
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(255, 255, 255, 0.918);
+}
+.user_form h2 {
+  font-family: "Jost", sans-serif;
+}
+.user_form h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.shop_btn {
+  color: rgba(255, 255, 255, 0.603);
+  text-decoration: none;
+}
+.shop_btn :hover {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.shop_btn_tiend a {
+  color: rgba(255, 255, 255, 0.603);
+  text-decoration: none;
+}
+.shop_btn_tiend a :hover {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.button_cart {
+  color: white;
+}
+.button_cart :hover {
+  background-color: rgba(49, 49, 49, 0.514);
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.bg_color {
+  background-image: url(../img/bg-form.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+.user_container {
+  top: 0%;
+}
+
+.title_border {
+  font-family: "Dancing Script", cursive;
+}
+
+.dropdown-menu {
+  font-family: "Jost", sans-serif;
+}/*# sourceMappingURL=estilos.css.map */
